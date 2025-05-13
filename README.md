@@ -92,7 +92,7 @@ In your Firebase database:
 | File            | Description                                |
 |-----------------|--------------------------------------------|
 | `login-alert.sh`| Main script to monitor and act             |
-| `HackComputer.sh`| Optional setup or configuration helper    |
+| `install.sh`| Optional setup or configuration helper    |
 | `README.md`     | This file                                   |
 
 ---
