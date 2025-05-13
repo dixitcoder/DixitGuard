@@ -7,7 +7,7 @@ sudo apt install -y curl gnome-screenshot wget
 
 # ===== STEP 2: Download your script (if not already downloaded) =====
 echo "Downloading login-alert.sh script..."
-wget -O /home/$USER/login-alert.sh "https://github.com/dixitcoder/WebNmap/blob/main/login-alert.sh"
+wget -O /home/$USER/login-alert.sh "https://github.com/dixitcoder/DixitGuard/blob/main/login-alert.sh"
 chmod +x /home/$USER/login-alert.sh
 
 # ===== STEP 3: Create systemd service file =====
