@@ -1,9 +1,23 @@
 #!/bin/bash
 
-# ===== CONFIGURATION =====
-BOT_TOKEN=""
-CHAT_ID=""
-DB_URL="" # Firebase DB URL
+# ==========================
+# DixitGuard: Cybersecurity Tool for Linux
+# ==========================
+# Features:
+# - Real-Time Firebase Listener
+# - Login Alerts to Telegram
+# - Screenshot Capture & Upload
+# - Firebase JSON Logging
+# - Easy Setup and Configuration
+# - Full Remote Device Control
+
+# ==========================
+# Configuration
+# ==========================
+BOT_TOKEN="YOUR_BOT_TOKEN"  # Replace with your Telegram Bot Token
+CHAT_ID="YOUR_CHAT_ID"     # Replace with your Telegram Chat ID
+DB_URL="YOUR_FIREBASE_DB_URL"  # Replace with your Firebase Realtime Database URL
+
 
 USERNAME="$USER"
 DATE="$(date)"
@@ -64,7 +78,7 @@ send_screenshot_to_telegram() {
 while true; do
     echo "📡 Checking Firebase at $(date)..."
 
-    response=$(curl -s "https://dixitcoder-tools-ai-default-rtdb.europe-west1.firebasedatabase.app/dixitcoder.json")
+    response=$(curl -s "https://<url>/dixitcoder.json")
 
     echo "📥 Response: $response"
 
@@ -77,7 +91,7 @@ while true; do
     fi
 
     # Check if the 'call_screen' value is true in Firebase
-    call_screen=$(curl -s "https://dixitcoder-tools-ai-default-rtdb.europe-west1.firebasedatabase.app/loginscreen.json")
+    call_screen=$(curl -s "https://<url>/loginscreen.json")
 
     echo "📥 Response from call_screen: $call_screen"
 
