@@ -1,4 +1,4 @@
-
+![DixitGuard Screenshot](https://github.com/dixitcoder/DixitGuard/blob/main/DALL%C2%B7E%202025-05-13%2021.19.58%20-%20A%20dark-themed%20cybersecurity%20project%20illustration%20for%20a%20tool%20named%20'DixitGuard'.%20The%20image%20shows%20a%20computer%20screen%20with%20code%20running%2C%20a%20shield%20icon%20sym.webp)
 # DixitGuard 🔐
 
 **DixitGuard** is a Linux-based security monitoring script that:
