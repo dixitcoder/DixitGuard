@@ -1,6 +1,21 @@
 ![DixitGuard Screenshot](https://github.com/dixitcoder/DixitGuard/blob/main/DALL%C2%B7E%202025-05-13%2021.19.58%20-%20A%20dark-themed%20cybersecurity%20project%20illustration%20for%20a%20tool%20named%20'DixitGuard'.%20The%20image%20shows%20a%20computer%20screen%20with%20code%20running%2C%20a%20shield%20icon%20sym.webp)
 # DixitGuard 🔐
 
+Updated DixitGuard Features:
+Real-Time Firebase Listener: Monitors Firebase for changes and triggers actions based on specific conditions.
+
+Login Alerts to Telegram: Sends alerts to a Telegram bot whenever a login occurs.
+
+Screenshot Capture: Optionally takes screenshots and uploads them to Telegram for further monitoring.
+
+Firebase JSON Logging: Logs system details to Firebase for tracking purposes.
+
+Easy Setup and Configuration: The script is designed to be simple to configure and use.
+
+Linux Device Control: Fully control devices remotely through Firebase and Telegram by sending specific commands and receiving system status updates.
+
+
+
 **DixitGuard** is a Linux-based security monitoring script that:
 - Monitors Firebase in real-time
 - Sends login alerts via Telegram
